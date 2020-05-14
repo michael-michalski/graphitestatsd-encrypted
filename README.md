@@ -27,4 +27,5 @@ Copy over the new nginx config and copy/mount the certificates into the image.
 
 ## Step 4
 Add the client certificates into grafana.
+
 ![grafana configuration](https://github.com/michael-michalski/graphitestatsd-encrypted/raw/master/grafana-configuration.png "Logo Title Text 1")

@@ -1,4 +1,4 @@
-# Adding encryption to Graphite
+# Adding encryption & authentication to Graphite
 To configure nginx for https add these to the server decleration.
 
 ```

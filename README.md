@@ -8,7 +8,7 @@ ssl_certificate /etc/ssl/certs/nginx-selfsigned-bundle.crt;
 ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
 ```
 
-To avoid MITM and authentication between graphite and consumers add the following.
+To avoid MITM and ensure authentication between graphite and consumers add the following.
 ```
 ssl_client_certificate /etc/ssl/certs/client.crt;
 ssl_verify_client on;
